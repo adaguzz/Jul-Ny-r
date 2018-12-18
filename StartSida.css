@@ -1,0 +1,50 @@
+#header{
+    text-align: center; /* Ser till så att texten är skriven i mitten */
+    color: white; /* Färg */
+    border: 10px; /* Storlek på border */
+    font-style: italic; /* Text typen på texten */
+    font-size: 50px; /* Storlek för text typen */
+}
+h1{
+    border: 4px solid whitesmoke; /* Storlek och färg på border */
+    border-radius: 6px; /* Rundar till knapparna */
+}
+h2{
+    text-align: center; /* Ser till så att texten är skriven i mitten */
+    color: white; /* Färg */
+    font-style: italic; /* Text typen på texten */
+    font-size: 45px; /* Storlek för text typen */
+}
+#top{
+    text-align: center; /* Ser till så att texten är skriven i mitten*/
+    font-size: large; /* Storleken på text typen */
+    padding: 10px; /* Padding trycker ut border*/
+}
+#top a{
+    text-decoration: none; /* Ingen text dekoration */
+    background-color: lightred; /* bakgrunds Färg */
+    color: white; /* Färg */
+    border: 3px solid whitesmoke; /* Storlek och färg på border */
+    display:inline-block; /* Gör så att jag kan sätta width, height på elementet*/
+    border-radius: 6px; /* Rundar border*/
+    font-style: italic; /* text typ */
+    font-size: 50px; /* text typ storlek */
+    margin: 10px; /* Mellanrum mellan elementet*/
+    padding: 3px; /* Mellanrum utanför elementet  */
+}
+#top a:hover{
+    color: grey; /* Färg */
+}
+body{
+    background-color: red; /* Bakgrundsfärg */
+    background-size: 100%; /* Så att bakgrundsbilden tar upp hela skärmen */
+    background-repeat: no-repeat; /* Så att inte bakgrundsbilden repeterar sig*/
+}
+p{
+    text-align: center; /* Texten i mitten */
+    color: blue; /* Färg */
+    border-radius: 10px; /* Rund border */
+    font-style: normal; /* Text typ */
+    font-size: 40px; /* Text typens storlek */ 
+}
+

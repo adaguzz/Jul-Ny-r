@@ -1,0 +1,63 @@
+#header{
+    text-align: center; /* Texten i mitten */
+    color: white; /* Färg */
+    border: 10px; /* Border storlek */
+    font-style: italic; /* Text typen */
+    font-size: 50px; /* Storleken på text typen  */
+}
+h1{
+    border: 4px solid whitesmoke; /* Storlek och färg på border */
+    border-radius: 6px; /* Rundad border */
+}
+h2{
+    text-align: center; /* Texten i mitten */
+    color: white; /* Färg */
+    font-style: italic; /* Text typ */
+    font-size: 50px; /* Storlek på text typ */
+}
+body{
+    background-color: red; /* Bakgrundsfärgen */ 
+    background-size: 100%; /* Ser till att bakgrundsbilden fyller upp hela skärmen */
+    background-repeat: no-repeat; /* Ser till att bakgrundsbilden inte repeterar sig*/
+}
+p{
+    text-align: center; /* Texten i mitten */ 
+    color: white; /* Färg */
+    border-radius: 10px; /* Rundad border */
+    font-style: italic; /* Text typ */
+    font-size: 45px; /* Storlek på text typen */
+}
+div.gallery{ /* Profilbilden */
+     margin: 5px; /* Mellanrum mellan ellementet och border*/
+     border: 4px solid black; /* Skapar border, väljer storlek ocj färg*/
+     border-radius: 4px; /* Rundad border */
+     width: 160px; /* Bredden */
+}
+
+div.gallery:hover{ /* När musen är över bilden, så kommer det bli en blå markering*/
+    border: 4px solid white; /* Storlek på border och färg, (Ingen användning men det ser bättre ut, "OM man vill så kan man länka något") */ 
+}
+
+div.gallery img{ /* Profilbilden */
+    width: 100%; /* Ser till att bilden är i hela bordern*/
+}
+#fakta{ /* Style för fakta rutan */
+    width: 1300px; /* Bredd*/
+    height: 500px; /* Höjd */
+    background-color: red; /* Bakgrundsfärg*/
+    float: right; /* Flyttar faktan till höger om skärmen */
+    border-radius: 5px; /* Rundad border*/
+    margin-right: 5px; /* Trycker ut faktan med 5px från högersidan */
+}
+a:link, a:visited { /* Hyperlinks */
+    background-color: #f44336; /* Bakgrundsfärg */
+    color: white; /* Färg */
+    padding: 14px 25px; /* padding upp och höger */ 
+    text-align: center; /* Texten mitten */
+    text-decoration: none; /* Ingen text dekoration */
+    display: inline-block; /* Gör så att jag kan sätta width, height på elementet */
+    background-color: black ; /* Bakgrundsfärg */
+    margin-left: 32px;  /* Trycker ut vänster kanten med 32px */ 
+    border: none; /* Ingen border*/
+}
+
